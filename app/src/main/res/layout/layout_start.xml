@@ -22,152 +22,167 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
+                android:text="Before of start"
+                android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Assemble the Rubik's Cube 3x3 scheme for beginners."
-                android:textColor="@color/zagolovok" />
+                android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Hello my friend! I am glad that you have chosen my educational application designed for the purpose of assembling the 3x3 Rubik's Cube. I have done my best to make it as simple and comprehensive as possible by detailing the algorithms and assembly techniques for the 3x3 Rubik's Cube."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gif1"
+                android:src="@drawable/img4" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 app:srcCompat="@drawable/img1" />
 
             <TextView
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Each of the assembly instructions is accompanied by easy-to-follow and memorable diagrams, making the process much more manageable. I will teach you the Beginner's Method of assembling the 3x3 Rubik's Cube, which is the most straightforward approach."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="The Beginner's Method consists of seven steps and eight formulas, making it easy to understand and follow. I hope you enjoy using my tutorial and find it useful in assembling the 3x3 Rubik's Cube."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="How to assemble the Rubik's Cube 3x3 step by step instructions."
-                android:textColor="@color/zagolovok" />
+                android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Here is a step-by-step guide to assembling the 3x3 Rubik's Cube. Before we begin, let's familiarize ourselves with the names of the cube's faces."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 app:srcCompat="@drawable/img2" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Please refer to the illustration below, where all the faces of the Rubik's Cube puzzle are shown schematically and labeled for your convenience."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Now that we know the names of the faces, let's move on to the step-by-step instructions for assembling the 3x3 Rubik's Cube."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Front - the front part of the cube (face);"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Back - the back, invisible side of the puzzle;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Right - it is clear that it is on the right;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Left - where the heart is;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Top - the hat or roof of the cube;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Bottom - floor or basement."
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="The names of all the pieces of the 3x3 Cube."
-                android:textColor="@color/zagolovok" />
+                android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="To successfully follow our step-by-step instructions for assembling the 3x3 Cube, it is important to become familiar with the names of all its elements."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:scaleType="centerInside"
                 app:srcCompat="@drawable/img3" />
 
@@ -175,79 +190,79 @@
                 android:id="@+id/textView18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Please refer to the image below, where we have provided a visual guide showing the locations of the various elements and pieces of the 3x3 Rubik's Puzzle, along with their respective names."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="It is important to remember these names in order to accurately follow our instructions and successfully complete the assembly of the 3x3 Cube."
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="The list of all elements of the 3x3 Rubik's Puzzle:"
-                android:textColor="@color/text" />
+                android:textColor="@color/text" android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Center;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Rib or rib element;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView23"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Corner, a corner element;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="The first or top layer, cap, hat;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Middle or second layer;"
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Bottom layer, also known as bottom row."
-                android:textColor="@color/textTable" />
+                android:textColor="@color/textTable" android:textSize="14sp" />
 
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="Now that we have covered the basic terms and the arrangement of the elements of the 3x3 Rubik's Cube, we can move on to the assembly process. With the help of our step-by-step instructions and visual guides, assembling the 3x3 Rubik's Cube will be easy and straightforward for you."
                 android:textColor="@color/konec" />
 
@@ -255,9 +270,10 @@
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp" android:layout_weight="1"
+                android:layout_marginBottom="15dp" android:layout_weight="1"
                 android:text="We hope this article has given you the knowledge and confidence to tackle the assembly of the 3x3 Rubik's Cube with ease. So let's get started, and good luck!"
-                android:textColor="@color/konec" />
+                android:textColor="@color/konec"
+                android:textSize="18sp"/>
 
         </LinearLayout>
     </ScrollView>
