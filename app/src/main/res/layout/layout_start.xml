@@ -30,250 +30,922 @@
                 android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold"
                 android:gravity="center"/>
 
-            <TextView
-                android:id="@+id/textView"
+                        <TextView
+                android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Assemble the Rubik's Cube 3x3 scheme for beginners."
-                android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold" />
-
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="About the 3x3 Rubik's Cube"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Hello my friend! I am glad that you have chosen my educational application designed for the purpose of assembling the 3x3 Rubik's Cube. I have done my best to make it as simple and comprehensive as possible by detailing the algorithms and assembly techniques for the 3x3 Rubik's Cube."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="If you are new to the world of Rubik's Cube, the 3×3 Rubik's Cube is undoubtedly the first puzzle that comes to mind. Its worldwide recognition and popularity is due to its representation of different shapes, and it is also known as the Original Rubik or Basic Rubik, as it was the first model created before other variations appeared."
+                android:textColor="@color/text"
+android:textSize="18sp" />
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Hello my friend! I am glad that you have chosen my educational application designed for the purpose of assembling the 3x3 Rubik's Cube. I have done my best to make it as simple and comprehensive as possible by detailing the algorithms and assembly techniques for the 3x3 Rubik's Cube."
-                android:textColor="@color/text" android:textSize="18sp" />
-
-            <pl.droidsonroids.gif.GifImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/gif1"
-                android:src="@drawable/img4" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                app:srcCompat="@drawable/img1" />
-
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="It is essential to first master the 3×3 Rubik's, because the concept of solving the puzzle involves the use of the reduction method. This method is also used to solve Rubik's 4×4 and above by implementing patterns and solutions that are similar to Rubik's 3×3. By understanding the reduction method, you can solve larger Rubik's Cubes with ease and efficiency."
+                android:textColor="@color/text"
+android:textSize="18sp" />
             <TextView
                 android:id="@+id/textView4"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Each of the assembly instructions is accompanied by easy-to-follow and memorable diagrams, making the process much more manageable. I will teach you the Beginner's Method of assembling the 3x3 Rubik's Cube, which is the most straightforward approach."
-                android:textColor="@color/text" android:textSize="18sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Without further ado, let's delve into the first steps a beginner should know when playing with a Rubik's Cube."
+                android:textColor="@color/text"
+android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView5"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="The Beginner's Method consists of seven steps and eight formulas, making it easy to understand and follow. I hope you enjoy using my tutorial and find it useful in assembling the 3x3 Rubik's Cube."
-                android:textColor="@color/text" android:textSize="18sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="3x3 Rubik's Cube pieces"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="How to assemble the Rubik's Cube 3x3 step by step instructions."
-                android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold" />
-
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Before you start solving the 3×3 Rubik's puzzle, it is important to familiarize yourself with its various components. From the outside, the 3×3 Rubik's Cube has six sides or faces, each of which is decorated with a different color. Typically, the six colors used are white, yellow, red, orange, blue, and green, making it easy to distinguish between the six sides."
+                android:textColor="@color/text"
+android:textSize="18sp" />
             <TextView
                 android:id="@+id/textView7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Here is a step-by-step guide to assembling the 3x3 Rubik's Cube. Before we begin, let's familiarize ourselves with the names of the cube's faces."
-                android:textColor="@color/text" android:textSize="18sp" />
-
-            <ImageView
-                android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                app:srcCompat="@drawable/img2" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="When disassembled, the 3×3 Rubik's Cube reveals that it is made up of 26 individual pieces, or small squares, with a single core inside. These 26 pieces are further divided into different parts. Below are the different parts of a 3×3 Rubik's Cube."
+                android:textColor="@color/text"
+android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/textView8"
-                android:layout_width="match_parent"
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Please refer to the illustration below, where all the faces of the Rubik's Cube puzzle are shown schematically and labeled for your convenience."
-                android:textColor="@color/text" android:textSize="18sp" />
-
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img1" />
             <TextView
                 android:id="@+id/textView9"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Now that we know the names of the faces, let's move on to the step-by-step instructions for assembling the 3x3 Rubik's Cube."
-                android:textColor="@color/text" android:textSize="18sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The 3×3 Rubik's Cube has 4 cores, 6 faces, 6 centers, 8 corners, and 12 edges."
+                android:textColor="@color/text"
+android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Front - the front part of the cube (face);"
-                android:textColor="@color/textTable" android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/textView11"
-                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="1. Getting to know the face on a 3×3 Rubik's Cube"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Back - the back, invisible side of the puzzle;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
-
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img2" />
             <TextView
                 android:id="@+id/textView12"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Right - it is clear that it is on the right;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
-
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="As mentioned above, if a 3×3 Rubik has 6 faces or sides with 6 different colors, the color of these faces depends on the center piece."
+                android:textColor="@color/text"
+android:textSize="18sp" />
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Left - where the heart is;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="2. Getting to Know the Center Piece of a 3×3 Rubik's Cube"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
 
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Top - the hat or roof of the cube;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img3" />
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Bottom - floor or basement."
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The center piece or center of a 3 × 3 Rubik's Cube is the small square that makes up the cube on each side and has only 1 color. Apart from being in the center, this piece is unique in that its position cannot be changed."
+                android:textColor="@color/text"
+android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView16"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="The names of all the pieces of the 3x3 Cube."
-                android:textColor="@color/zagolovok" android:textSize="25sp" android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/textView17"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="To successfully follow our step-by-step instructions for assembling the 3x3 Cube, it is important to become familiar with the names of all its elements."
-                android:textColor="@color/text" android:textSize="18sp" />
-
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="3. Get to know the Edge Piece on a 3×3 Rubik"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageView17"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:scaleType="centerInside"
-                app:srcCompat="@drawable/img3" />
-
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img4" />
             <TextView
                 android:id="@+id/textView18"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Please refer to the image below, where we have provided a visual guide showing the locations of the various elements and pieces of the 3x3 Rubik's Puzzle, along with their respective names."
-                android:textColor="@color/text" android:textSize="18sp" />
-
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The Edge Piece is a Rubik's piece that is always located between 2 central pieces and 2 corners. The characteristic of this piece is that it always has 2 different colors. For the number itself, this border piece has 12 for a 3×3 Rubik.
+"
+                android:textColor="@color/text"
+android:textSize="18sp" />
             <TextView
                 android:id="@+id/textView19"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="It is important to remember these names in order to accurately follow our instructions and successfully complete the assembly of the 3x3 Cube."
-                android:textColor="@color/text" android:textSize="18sp" />
-
-            <TextView
-                android:id="@+id/textView20"
-                android:layout_width="match_parent"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="4. Getting to know the corner piece on a 3×3 Rubik"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="The list of all elements of the 3x3 Rubik's Puzzle:"
-                android:textColor="@color/text" android:textSize="18sp" />
-
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img5" />
             <TextView
                 android:id="@+id/textView21"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Center;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="The last piece is the corner piece. The main feature that can be seen is its position at the end or tip of each Rubik's face. Apart from that, another feature that can be seen is the color, where the 3×3 Rubik's Corner has 3 colors. In a 3x3 Rubik's Cube, a corner piece has 8 sections."
+                android:textColor="@color/text"
+android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView22"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Rib or rib element;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="3×3 Rubik's Notation"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView23"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Corner, a corner element;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="After getting to know the parts of the Rubik's Cube, the next step is to get to know and know how to rotate Rubik's 3 × 3 notation. The Rubik's cube is moved or rotated using motions that will later form an algorithm. This movement is given a 6-letter term. To solve it, the Rubik must be in the same position without changing the position of the color, and it is suggested that the yellow face be placed facing up."
+                android:textColor="@color/text"
+android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/textView24"
-                android:layout_width="match_parent"
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="The first or top layer, cap, hat;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img6" />
 
             <TextView
                 android:id="@+id/textView25"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Middle or second layer;"
-                android:textColor="@color/textTable" android:textSize="14sp" />
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="For the 6-letter terms used, there will of course be movements that have the following meanings:"
+                android:textColor="@color/text"
+android:textSize="18sp" />
+
 
             <TextView
                 android:id="@+id/textView26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Bottom layer, also known as bottom row."
-                android:textColor="@color/textTable" android:textSize="14sp" />
-
+                android:layout_weight="1"
+                android:text="U : Up or twist the top to the left"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="Now that we have covered the basic terms and the arrangement of the elements of the 3x3 Rubik's Cube, we can move on to the assembly process. With the help of our step-by-step instructions and visual guides, assembling the 3x3 Rubik's Cube will be easy and straightforward for you."
-                android:textColor="@color/konec" />
-
+                android:layout_weight="1"
+                android:text="D : Down or twist the lower part to the right"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="15dp" android:layout_weight="1"
-                android:text="We hope this article has given you the knowledge and confidence to tackle the assembly of the 3x3 Rubik's Cube with ease. So let's get started, and good luck!"
-                android:textColor="@color/konec"
-                android:textSize="18sp"/>
+                android:layout_weight="1"
+                android:text="R : Right or twist the right part up"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="L : Left or twist the left side down"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="F : Front or rotate the front in a clockwise direction"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="B : Back or turn the back clockwise"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="So every 6 movements has only 1 direction, right? Therefore, each 6-direction movement will later be divided into 12, of which the 6 additions are the opposite direction by adding a sign (') for each letter of the term."
+                android:textColor="@color/text"
+android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="To make things easier, here is an illustration of how to move or notate the Rubik 3 × 3 itself:"
+                android:textColor="@color/text"
+android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="Clockwise Rotation"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+
+
+            <TableLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="2,1"
+                android:gravity="center">
+
+                <TableRow
+                    android:background="#FFFFFF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+                </TableRow>
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" Notation "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" Illustration "
+                        android:layout_margin="1dp"
+                        android:layout_column="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" U "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img7" />
+
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" D "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img8" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" R "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img9" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" L "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img10" />
+
+                </TableRow>
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" F "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img11" />
+
+                </TableRow>
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" B "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img12" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:text="Clockwise Rotation"
+                android:textColor="@color/text"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+
+            <TableLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="2,1"
+                android:gravity="center">
+
+                <TableRow
+                    android:background="#FFFFFF"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+                </TableRow>
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" Notation "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" Illustration "
+                        android:layout_margin="1dp"
+                        android:layout_column="1"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" U’ "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img13" />
+
+
+                </TableRow>
+
+
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" D’ "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img14" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" R’ "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img15" />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" L’ "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img16" />
+
+                </TableRow>
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" F’ "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img17" />
+
+                </TableRow>
+                <TableRow
+                    android:background="#000000"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text=" B’ "
+                        android:layout_margin="1dp"
+                        android:layout_column="0"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_column="0"
+                        android:layout_margin="1dp"
+                        android:background="#FFFFFF"
+                        android:gravity="center"
+                        app:srcCompat="@drawable/img18" />
+
+                </TableRow>
+
+
+            </TableLayout>
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Without further ado, here are the first steps a beginner needs to know when playing Rubik."
+                android:textColor="@color/text"
+android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Rubik 3 × 3 Formula, Solving Rubik 3 × 3 Step by Step"
+                android:textColor="@color/zagolovok"
+android:textSize="25sp"
+android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="Solving the Rubik 3 × 3 is divided into 7 steps this time:"
+                android:textColor="@color/text"
+android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Create a white cross on the bottom side"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Completing the 4 corners on the bottom layer"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Completing the 4 edges on the middle layer"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Make a yellow cross on the top side"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Finish the yellow side at the top"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Finish 4 yellow corners"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Finish 4 edges on the yellow side"
+                android:textColor="@color/textTable"
+android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="In order to follow the steps below to the fullest, make sure you have prepared your favorite 3×3 Rubik. To make the steps below easier, make sure that the position of the yellow face or the center Rubik is on top!
+"
+                android:textColor="@color/text"
+android:textSize="18sp" />
+
+
+
+
+
 
         </LinearLayout>
     </ScrollView>
