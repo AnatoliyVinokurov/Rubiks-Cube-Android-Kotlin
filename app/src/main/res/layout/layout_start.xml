@@ -10,8 +10,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="5dp"
+        android:layout_height="0dp"
         android:layout_weight="1">
 
         <LinearLayout
@@ -60,7 +59,7 @@
                 android:textSize="18sp" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img1" />
@@ -305,33 +304,19 @@
 
 
             <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"></TableRow>
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000"
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Notation "
@@ -339,10 +324,10 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="1"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Illustration "
@@ -352,27 +337,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" U "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img7" />
@@ -382,27 +364,24 @@
 
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" D "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img8" />
@@ -411,27 +390,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" R "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img9" />
@@ -439,27 +415,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" L "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img10" />
@@ -467,27 +440,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" F "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img11" />
@@ -495,27 +465,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" B "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img12" />
@@ -539,33 +506,19 @@
 
 
             <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#FFFFFF"></TableRow>
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000"
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Notation "
@@ -573,10 +526,10 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="1"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Illustration "
@@ -586,27 +539,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" U’ "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img13" />
@@ -616,27 +566,24 @@
 
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" D’ "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img14" />
@@ -645,27 +592,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" R’ "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img15" />
@@ -673,27 +617,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" L’ "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img16" />
@@ -701,27 +642,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" F’ "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img17" />
@@ -729,27 +667,24 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-                    android:background="#000000">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" B’ "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img18" />

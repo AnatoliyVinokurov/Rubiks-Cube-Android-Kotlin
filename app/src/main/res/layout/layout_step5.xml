@@ -10,8 +10,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="5dp"
+        android:layout_height="0dp"
         android:layout_weight="1">
 
         <LinearLayout
@@ -43,7 +42,7 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img54" />
@@ -58,32 +57,19 @@
                 android:textSize="18sp" />
 
             <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"></TableRow>
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 7 "
@@ -93,16 +79,14 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img55" />
@@ -114,32 +98,19 @@
 
 
             <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"></TableRow>
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 8 "
@@ -149,16 +120,14 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img56" />
@@ -180,32 +149,19 @@
 
 
             <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"></TableRow>
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Number "
@@ -213,10 +169,10 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="1"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Illustration "
@@ -224,10 +180,10 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="1"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm "
@@ -237,35 +193,33 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" 1 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img57" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 7 "
@@ -276,26 +230,24 @@
 
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" 2 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img58" />
@@ -314,35 +266,33 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" 3 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img59" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 7 + Algorithm 8 "
@@ -353,36 +303,33 @@
 
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" 4 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img60" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
-
+                        android:layout_weight="1"
                         android:gravity="center"
                         android:text=" Algorithm 7 + Algorithm 7 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -391,35 +338,33 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" 5 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img61" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 8 + Algorithm 7 "
@@ -429,35 +374,33 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" 6 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img62" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 7 + U' + Algorithm 7 "
@@ -468,35 +411,33 @@
 
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" 7 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         app:srcCompat="@drawable/img63" />
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 8 + U2 + Algorithm 7 "

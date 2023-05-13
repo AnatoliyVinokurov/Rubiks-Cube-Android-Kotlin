@@ -10,8 +10,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="5dp"
+        android:layout_height="0dp"
         android:layout_weight="1">
 
         <LinearLayout
@@ -42,7 +41,7 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img64" />
@@ -74,26 +73,16 @@
                 android:gravity="center"
                 android:stretchColumns="2,1">
 
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"></TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Algorithm 9 "
@@ -103,18 +92,16 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
-                        android:gravity="center"
+
                         app:srcCompat="@drawable/img65" />
 
 
@@ -133,32 +120,19 @@
 
 
             <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"></TableRow>
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_column="0"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Condition 1 "
@@ -166,10 +140,10 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_column="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Solution "
@@ -179,28 +153,26 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
-
+                        android:layout_weight="1"
                         android:gravity="center"
+
                         android:text=" When there are 2 corners of the same color. "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
-                        android:gravity="center"
+
                         app:srcCompat="@drawable/img66" />
 
 
@@ -209,32 +181,19 @@
             </TableLayout>
 
             <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"></TableRow>
-
-                <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1"
-
-
-                    >
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_column="0"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Condition 2 "
@@ -242,10 +201,10 @@
                         android:textStyle="bold" />
 
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_column="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" Solution "
@@ -255,28 +214,26 @@
                 </TableRow>
 
                 <TableRow
-                    android:layout_width="fill_parent"
-                    android:layout_height="0dp"
-                    android:layout_margin="1dp"
-                    android:layout_weight="1">
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
                     <TextView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
                         android:gravity="center"
                         android:text=" When no 2 corners have the same color. "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_column="0"
                         android:layout_margin="1dp"
+                        android:layout_weight="1"
 
-                        android:gravity="center"
+
                         app:srcCompat="@drawable/img67" />
 
 
