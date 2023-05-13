@@ -42,12 +42,13 @@ class MainActivity : AppCompatActivity() {
         // LoginFragment is the name of Fragment and the Login
         // is a title of tab
         adapter.addFragment(StartFragment(), "Start")
-        adapter.addFragment(Step1Fragment(), "Step 1")
-        adapter.addFragment(Step2Fragment(), "Step 2")
-        adapter.addFragment(Step3Fragment(), "Step 3")
-        adapter.addFragment(Step4Fragment(), "Step 4")
-        adapter.addFragment(Step5Fragment(), "Step 5")
-        adapter.addFragment(Step6Fragment(), "Step 6")
+        adapter.addFragment(Step1Fragment(), "1")
+        adapter.addFragment(Step2Fragment(), "2")
+        adapter.addFragment(Step3Fragment(), "3")
+        adapter.addFragment(Step4Fragment(), "4")
+        adapter.addFragment(Step5Fragment(), "5")
+        adapter.addFragment(Step6Fragment(), "6")
+        adapter.addFragment(Step7Fragment(), "7")
 
         // setting adapter to view pager.
         viewpager.setAdapter(adapter)
