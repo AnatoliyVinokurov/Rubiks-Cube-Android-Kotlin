@@ -68,10 +68,11 @@
 
             <TableLayout
 
-                android:layout_width="fill_parent"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:stretchColumns="2,1">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
 
                 <TableRow
@@ -83,7 +84,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm 9 "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -100,7 +101,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
 
                         app:srcCompat="@drawable/img65" />
 
@@ -121,7 +122,10 @@
 
             <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
 
                 <TableRow
@@ -133,7 +137,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Condition 1 "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -144,7 +148,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Solution "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -162,7 +166,7 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:gravity="center"
-
+                        android:background="#FFFFFF"
                         android:text=" When there are 2 corners of the same color. "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -171,7 +175,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
 
                         app:srcCompat="@drawable/img66" />
 
@@ -182,7 +186,10 @@
 
             <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
 
                 <TableRow
@@ -194,7 +201,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Condition 2 "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -205,7 +212,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Solution "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -222,7 +229,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" When no 2 corners have the same color. "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -233,7 +240,7 @@
                         android:layout_margin="1dp"
                         android:layout_weight="1"
 
-
+                        android:background="#FFFFFF"
                         app:srcCompat="@drawable/img67" />
 
 

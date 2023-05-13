@@ -58,7 +58,10 @@
 
             <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
 
                 <TableRow
@@ -70,7 +73,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm 6 "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -87,7 +90,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img50" />
 
@@ -109,7 +112,10 @@
 
             <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
 
                 <TableRow
@@ -121,7 +127,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Number "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -132,7 +138,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Illustration "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -143,7 +149,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -160,7 +166,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 1 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -170,7 +176,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img51" />
 
@@ -179,7 +185,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm 6 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -197,7 +203,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 2 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -207,7 +213,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img52" />
 
@@ -216,7 +222,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm 6 + Algorithm 6 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -234,7 +240,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 3 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -244,7 +250,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img53" />
 
@@ -253,7 +259,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm 6 + Algorithm 6 + U + Algorithm 6 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />

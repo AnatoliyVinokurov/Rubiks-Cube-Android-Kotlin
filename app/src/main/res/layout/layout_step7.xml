@@ -61,7 +61,10 @@
             <TableLayout
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -72,7 +75,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm 10 "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -89,7 +92,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img69" />
 
@@ -102,7 +105,10 @@
             <TableLayout
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -113,7 +119,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Algorithm 11 "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -130,7 +136,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img70" />
 
@@ -153,7 +159,10 @@
             <TableLayout
 
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@drawable/table_border"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp">
 
                 <TableRow
                     android:layout_width="match_parent"
@@ -164,7 +173,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Number "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -175,7 +184,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" Illustration "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -186,7 +195,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="left"
                         android:text=" Algorithm "
                         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -201,10 +210,10 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 1 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -214,16 +223,16 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img71" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="left"
                         android:text=" Algorithm 10 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -238,10 +247,10 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 2 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -251,16 +260,16 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img72" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="left"
                         android:text=" Algorithm 11 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -275,10 +284,10 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 3 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -288,16 +297,16 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img73" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="left"
                         android:text=" Algorithm 10 + U + Algorithm 10 + U' "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -313,10 +322,10 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 4 "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -326,16 +335,16 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="center"
                         app:srcCompat="@drawable/img74" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
-
+                        android:background="#FFFFFF"
                         android:gravity="left"
                         android:text=" Algorithm 10 + U' + Algorithm 10 + U "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
