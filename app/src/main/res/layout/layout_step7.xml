@@ -32,10 +32,11 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Complete 4 Edges on the Yellow Side"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
@@ -46,6 +47,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginBottom="15dp"
                 app:srcCompat="@drawable/img68" />
 
             <TextView
@@ -170,18 +172,18 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:text=" Number "
+                        android:text="№"
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textStyle="bold" />
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
@@ -192,7 +194,7 @@
 
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_margin="1dp"
                         android:layout_weight="1"
                         android:background="#FFFFFF"
@@ -212,7 +214,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 1 "
@@ -249,7 +251,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 2 "
@@ -286,7 +288,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 3 "
@@ -308,7 +310,7 @@
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="left"
-                        android:text=" Algorithm 10 + U + Algorithm 10 + U' "
+                        android:text=" Algorithm 10 +  U  + Algorithm 10 +  U'  "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
@@ -324,7 +326,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
                         android:text=" 4 "
@@ -346,7 +348,7 @@
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="left"
-                        android:text=" Algorithm 10 + U' + Algorithm 10 + U "
+                        android:text=" Algorithm 10 +  U'  + Algorithm 10 +  U  "
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 
@@ -360,40 +362,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="As a result, you have learned how to solve the 3×3 Rubik's Cube quickly and easily using these simple formulas. Although it looks complicated, with enough and consistent practice you can master the technique."
-                android:textColor="@color/konec"
+                android:layout_marginBottom="25dp"
+                android:text="With consistent practice, you can quickly master the technique of solving the 3x3 Rubik's Cube using simple formulas, despite its initial complexity. While there are no shortcuts to mastery, following the steps outlined can improve your solution time. It is important to practice consistently and patiently, and to strive to continually improve your skills. With mastery of this technique, solving the Rubik's Cube in seconds is achievable. By never giving up and continuing to practice, one could become a Rubik's Cube champion."
+                android:textColor="@color/text"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="There is no instant way to become proficient at solving the Rubik's Cube, but by following the steps outlined, you can speed up your solution time and become even more proficient. Remember to practice patiently and consistently, and always try to find new ways to improve your skills."
-                android:textColor="@color/konec"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Once you master this technique, you'll be able to solve the Rubik's Cube quickly and easily, even in seconds. Keep practicing and never give up, and who knows, maybe one day you'll be a Rubik's Cube champion!"
-                android:textColor="@color/konec"
-                android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="All rights reserved under the law on the use of scientific material for educational purposes."
-                android:textColor="@color/konec"
-                android:textSize="10sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Thank you for using this mobile application. Developer - Anatoly Vinokurov, Sholom Aleichem University, Group Number 1721."
-                android:textColor="@color/konec"
+                android:text="Mobile application developer - Anatoly Vinokurov, Sholom Aleichem University, Group Number 1721 .© All rights reserved 2023"
+                android:textColor="@color/text"
                 android:textSize="10sp" />
 
             <ImageView

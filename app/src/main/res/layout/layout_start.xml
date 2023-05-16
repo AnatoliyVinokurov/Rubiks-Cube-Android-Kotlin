@@ -31,10 +31,11 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="3x3 Rubik's Cube pieces"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
@@ -200,7 +201,7 @@
 
             <ImageView
                 android:id="@+id/imageView24"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img6" />
@@ -268,6 +269,7 @@
                 android:layout_weight="1"
                 android:text="B : Back or turn the back clockwise"
                 android:textColor="@color/textTable"
+                android:layout_marginBottom="5dp"
                 android:textSize="14sp" />
 
             <TextView
@@ -717,10 +719,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Rubik 3 × 3 Formula, Solving Rubik 3 × 3 Step by Step"
+                android:text="Rubik 3 × 3 Formula of CFOP (Friedrich Method), Solving Rubik 3 × 3 Step by Step"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
                 android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1"
+                android:text="There are several popular methods for solving the Rubik's Cube. This mobile application discusses the CFOP (Friedrich Method): CFOP is an advanced method named after Jessica Friedrich, who popularized it. CFOP stands for Cross, F2L (first two layers), OLL (orientation of the last layer), and PLL (permutation of the last layer). It involves solving the cube layer by layer and includes more advanced methods and algorithms for faster solving."
+                android:textColor="@color/text"
+                android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView36"
@@ -731,7 +742,6 @@
                 android:text="Solving the Rubik 3 × 3 is divided into 7 steps this time:"
                 android:textColor="@color/text"
                 android:textSize="18sp" />
-
 
             <TextView
                 android:id="@+id/textView37"
@@ -794,6 +804,7 @@
                 android:layout_weight="1"
                 android:text="Finish 4 edges on the yellow side"
                 android:textColor="@color/textTable"
+                android:layout_marginBottom="5dp"
                 android:textSize="14sp" />
 
             <TextView
@@ -802,9 +813,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="In order to follow the steps below to the fullest, make sure you have prepared your favorite 3×3 Rubik. To make the steps below easier, make sure that the position of the yellow face or the center Rubik is on top!
-"
+                android:text="In order to follow the steps below to the fullest, make sure you have prepared your favorite 3×3 Rubik. To make the steps below easier, make sure that the position of the yellow face or the center Rubik is on top!"
                 android:textColor="@color/text"
+                android:textStyle="bold"
                 android:textSize="18sp" />
 
 

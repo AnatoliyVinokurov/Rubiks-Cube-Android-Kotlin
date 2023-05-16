@@ -1,46 +1,58 @@
 package com.anatoliyvinokurov.rubikscube
 
 import android.os.Bundle
-import androidx.annotation.Nullable
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
-import com.google.android.material.tabs.TabLayout
+import com.google.android.gms.ads.*
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
+import com.anatoliyvinokurov.rubikscube.databinding.ActivityMainBinding
+
+const val GAME_LENGTH_MILLISECONDS = 3000L
+const val AD_UNIT_ID = "ca-app-pub-3940256099942544/1033173712"
 
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+    private var interstitialAd: InterstitialAd? = null
+    private var adIsLoading: Boolean = false
+    private var TAG = "MainActivity"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        // Create the object of Toolbar, ViewPager and
-        // TabLayout and use “findViewById()” method*/
-        var tab_toolbar = findViewById<Toolbar>(R.id.toolbar)
-        var tab_viewpager = findViewById<ViewPager>(R.id.tab_viewpager)
-        var tab_tablayout = findViewById<TabLayout>(R.id.tab_tablayout)
+        // Set up toolbar, view pager, and tab layout
+        val toolbar = binding.toolbar
+        val viewPager = binding.tabViewpager
+        val tabLayout = binding.tabTablayout
+        setSupportActionBar(toolbar)
+        setupViewPager(viewPager)
+        tabLayout.setupWithViewPager(viewPager)
 
-        // As we set NoActionBar as theme to this activity
-        // so when we run this project then this activity doesn't
-        // show title. And for this reason, we need to run
-        // setSupportActionBar method
-        setSupportActionBar(tab_toolbar)
-        setupViewPager(tab_viewpager)
+        // Log the Mobile Ads SDK version
+        /*Log.d(TAG, "Google Mobile Ads SDK Version: ${MobileAds.getVersion()}")*/
 
-        // If we dont use setupWithViewPager() method then
-        // tabs are not used or shown when activity opened
-        tab_tablayout.setupWithViewPager(tab_viewpager)
+        // Initialize the Mobile Ads SDK
+        MobileAds.initialize(this) {}
+
+        // Set your test devices
+        MobileAds.setRequestConfiguration(
+            RequestConfiguration.Builder().setTestDeviceIds(listOf("ABCDEF012345")).build()
+        )
+
+        // Check if the INTERNET permission is available
+        val hasInternetPermission = AppModificationChecker.hasInternetPermission(this)
+        binding.retryButton.visibility = if (hasInternetPermission) View.INVISIBLE else View.VISIBLE
     }
 
-    // This function is used to add items in arraylist and assign
-    // the adapter to view pager
-    private fun setupViewPager(viewpager: ViewPager) {
-        var adapter: ViewPagerAdapter = ViewPagerAdapter(supportFragmentManager)
-
-        // LoginFragment is the name of Fragment and the Login
-        // is a title of tab
+    private fun setupViewPager(viewPager: ViewPager) {
+        val adapter = ViewPagerAdapter(supportFragmentManager)
         adapter.addFragment(StartFragment(), "Start")
         adapter.addFragment(Step1Fragment(), "1")
         adapter.addFragment(Step2Fragment(), "2")
@@ -49,45 +61,81 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(Step5Fragment(), "5")
         adapter.addFragment(Step6Fragment(), "6")
         adapter.addFragment(Step7Fragment(), "7")
-
-        // setting adapter to view pager.
-        viewpager.setAdapter(adapter)
+        viewPager.adapter = adapter
     }
 
-    // This "ViewPagerAdapter" class overrides functions which are
-    // necessary to get information about which item is selected
-    // by user, what is title for selected item and so on.*/
-    class ViewPagerAdapter : FragmentPagerAdapter {
+    class ViewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentManager) {
+        private val fragmentList = ArrayList<Fragment>()
+        private val fragmentTitleList = ArrayList<String>()
 
-        // objects of arraylist. One is of Fragment type and
-        // another one is of String type.*/
-        private final var fragmentList1: ArrayList<Fragment> = ArrayList()
-        private final var fragmentTitleList1: ArrayList<String> = ArrayList()
-
-        // this is a secondary constructor of ViewPagerAdapter class.
-        public constructor(supportFragmentManager: FragmentManager)
-                : super(supportFragmentManager)
-
-        // returns which item is selected from arraylist of fragments.
         override fun getItem(position: Int): Fragment {
-            return fragmentList1.get(position)
+            return fragmentList[position]
         }
 
-        // returns which item is selected from arraylist of titles.
-        @Nullable
         override fun getPageTitle(position: Int): CharSequence {
-            return fragmentTitleList1.get(position)
+            return fragmentTitleList[position]
         }
 
-        // returns the number of items present in arraylist.
         override fun getCount(): Int {
-            return fragmentList1.size
+            return fragmentList.size
         }
 
-        // this function adds the fragment and title in 2 separate arraylist.
         fun addFragment(fragment: Fragment, title: String) {
-            fragmentList1.add(fragment)
-            fragmentTitleList1.add(title)
+            fragmentList.add(fragment)
+            fragmentTitleList.add(title)
         }
     }
+
+    private fun loadAd() {
+        val adRequest = AdRequest.Builder().build()
+        InterstitialAd.load(
+            this,
+            AD_UNIT_ID,
+            adRequest,
+            object : InterstitialAdLoadCallback() {
+                override fun onAdFailedToLoad(adError: LoadAdError) {
+                    interstitialAd = null
+                    adIsLoading = false
+                    val error = "domain: ${adError.domain}, code: ${adError.code}, " + "message: ${adError.message}"
+                /* Toast.makeText(this@MainActivity,"onAdFailedToLoad() with error $error",Toast.LENGTH_SHORT).show() */
+            }
+
+            override fun onAdLoaded(ad: InterstitialAd) {
+                interstitialAd = ad
+                adIsLoading = false
+                /* Toast.makeText(this@MainActivity, "onAdLoaded()", Toast.LENGTH_SHORT).show() */
+            }
+        }
+    )
+}
+
+fun showInterstitial() {
+    if (interstitialAd != null) {
+        interstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
+            override fun onAdDismissedFullScreenContent() {
+                interstitialAd = null
+                loadAd()
+            }
+
+            override fun onAdFailedToShowFullScreenContent(adError: AdError) {
+                interstitialAd = null
+            }
+
+            override fun onAdShowedFullScreenContent() {
+                // Called when ad is dismissed.
+            }
+        }
+        interstitialAd?.show(this)
+    } else {
+        /* Toast.makeText(this, "Ad wasn't loaded.", Toast.LENGTH_SHORT).show() */
+        startGame()
+    }
+}
+
+fun startGame() {
+    if (!adIsLoading && interstitialAd == null) {
+        adIsLoading = true
+        loadAd()
+    }
+}
 }

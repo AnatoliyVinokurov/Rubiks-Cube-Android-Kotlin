@@ -31,10 +31,11 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Make a Yellow Cross (Plus Sign) on the Top Side"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
@@ -126,10 +127,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:text=" Number "
+                        android:text="№"
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textStyle="bold" />
 
@@ -165,10 +166,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:text=" 1 "
+                        android:text="1"
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
@@ -202,10 +203,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:text=" 2 "
+                        android:text="2"
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
@@ -239,10 +240,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="1dp"
-                        android:layout_weight="1"
+                        android:layout_weight="0.2"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:text=" 3 "
+                        android:text="3"
                         android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView

@@ -6,9 +6,18 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-// Here ":" symbol is indicate that LoginFragment
-// is child class of Fragment Class
+/**
+ * Fragment class representing the start screen.
+ */
 class StartFragment : Fragment() {
+    /**
+     * Called to create the view hierarchy associated with the fragment.
+     *
+     * @param inflater           The LayoutInflater object that can be used to inflate any views
+     * @param container          The parent view that the fragment's UI should be attached to
+     * @param savedInstanceState If non-null, this fragment is being re-constructed from a previous saved state
+     * @return The View for the fragment's UI, or null
+     */
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
@@ -16,6 +25,4 @@ class StartFragment : Fragment() {
             R.layout.layout_start, container, false
         )
     }
-    // Here "layout_login" is a name of layout file
-    // created for LoginFragment
 }

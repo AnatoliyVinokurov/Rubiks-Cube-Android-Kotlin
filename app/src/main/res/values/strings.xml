@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Rubik\'s Cube</string>
+    <string name="app_name">CubeSolver CFOP</string>
+    <string name="impossible_game">Impossible Game</string>
+    <string name="retry_button_text">Retry</string>
 </resources>

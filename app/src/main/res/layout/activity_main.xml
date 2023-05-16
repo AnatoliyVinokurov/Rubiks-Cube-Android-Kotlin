@@ -26,7 +26,7 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" />
 
         <!-- tablayout which contains which is
-            important to show tabs -->
+             important to show tabs -->
         <com.google.android.material.tabs.TabLayout
             android:id="@+id/tab_tablayout"
             android:layout_width="match_parent"
@@ -37,12 +37,26 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <!-- view pager is used to open other fragment by using
-        left or right swip-->
+         left or right swip-->
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/tab_viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="5dp"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/retry_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="105dp"
+android:textSize="45sp"
+                android:textStyle="bold"
+        android:text="For the application to work properly, you need to allow the INTERNET to be used. Please allow the Internet in the settings of your device!" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
+

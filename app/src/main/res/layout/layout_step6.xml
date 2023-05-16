@@ -31,10 +31,11 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Complete 4 Yellow Corners"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
@@ -43,6 +44,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img64" />
 
@@ -70,9 +72,9 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/table_border"
+                android:layout_marginTop="25dp"
                 android:layout_marginBottom="25dp"
-                android:layout_marginTop="25dp">
+                android:background="@drawable/table_border">
 
 
                 <TableRow
@@ -123,9 +125,9 @@
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/table_border"
+                android:layout_marginTop="25dp"
                 android:layout_marginBottom="25dp"
-                android:layout_marginTop="25dp">
+                android:background="@drawable/table_border">
 
 
                 <TableRow
@@ -139,36 +141,16 @@
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:text=" Condition 1 "
+                        android:text=" When there are 2 corners of the same color. "
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textStyle="bold" />
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="1dp"
-                        android:layout_weight="1"
-                        android:background="#FFFFFF"
-                        android:gravity="center"
-                        android:text=" Solution "
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textStyle="bold" />
 
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="1dp"
-                        android:layout_weight="1"
-                        android:gravity="center"
-                        android:background="#FFFFFF"
-                        android:text=" When there are 2 corners of the same color. "
-                        android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
                         android:layout_width="0dp"
@@ -187,9 +169,9 @@
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/table_border"
+                android:layout_marginTop="25dp"
                 android:layout_marginBottom="25dp"
-                android:layout_marginTop="25dp">
+                android:background="@drawable/table_border">
 
 
                 <TableRow
@@ -203,18 +185,7 @@
                         android:layout_weight="1"
                         android:background="#FFFFFF"
                         android:gravity="center"
-                        android:text=" Condition 2 "
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:textStyle="bold" />
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_margin="1dp"
-                        android:layout_weight="1"
-                        android:background="#FFFFFF"
-                        android:gravity="center"
-                        android:text=" Solution "
+                        android:text=" When no 2 corners have the same color. "
                         android:textAppearance="?android:attr/textAppearanceLarge"
                         android:textStyle="bold" />
 
@@ -223,16 +194,6 @@
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="1dp"
-                        android:layout_weight="1"
-                        android:background="#FFFFFF"
-                        android:gravity="center"
-                        android:text=" When no 2 corners have the same color. "
-                        android:textAppearance="?android:attr/textAppearanceLarge" />
 
                     <ImageView
                         android:layout_width="0dp"

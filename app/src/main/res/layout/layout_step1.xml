@@ -31,10 +31,11 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Make a white cross on the bottom side (white plus sign)"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
@@ -53,12 +54,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
                 app:srcCompat="@drawable/img19" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:text="Follow these 5 simple steps to make a white cross."
                 android:textColor="@color/text"
@@ -76,6 +78,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img20" />
 
@@ -91,6 +94,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img21" />
 
@@ -106,6 +110,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img22" />
 
@@ -121,6 +126,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img23" />
 
@@ -136,6 +142,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 app:srcCompat="@drawable/img24" />
 

@@ -31,10 +31,11 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
+                android:gravity="center"
                 android:text="Completing the 4 corners on the bottom layer"
                 android:textColor="@color/zagolovok"
                 android:textSize="25sp"
@@ -44,12 +45,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
                 app:srcCompat="@drawable/img25" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="5dp"
+                android:layout_marginBottom="15dp"
                 android:layout_weight="1"
                 android:text="First, consider the following algorithm."
                 android:textColor="@color/text"
@@ -59,6 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
+android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:text="Algorithm 1"
                 android:textColor="@color/text"
@@ -77,6 +81,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="-35dp"
                 app:srcCompat="@drawable/img26" />
 
             <TextView
@@ -136,6 +141,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
+android:layout_marginTop="15dp"
                 android:layout_weight="1"
                 android:text="Algorithm 2"
                 android:textColor="@color/text"
@@ -154,6 +160,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_marginTop="-35dp"
                 app:srcCompat="@drawable/img28" />
 
             <TextView
@@ -162,7 +169,7 @@
                 android:layout_weight="1"
                 android:text="Use Algorithm 2 when the white corner is in the UFL (upper left corner). Before using this algorithm, make sure that the color in the U is the same as the center F and the color in the L part is the same as the center in the L part."
                 android:textColor="@color/text"
-                android:textSize="14sp" />
+                android:textSize="18sp" />
 
 
             <TableLayout
@@ -214,7 +221,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
                 android:layout_weight="1"
-                android:text="Lalu, bagaimana jika corner putih tidak berada di posisi F layer ke-3? Berikut adalah trik memindahkan corner putih agar dapat pindah ke layer ke-3"
+                android:text="What if the white corner is not in the F position of the 3rd layer? Here's a trick to move the white corner so that you can move to the 3rd layer."
                 android:textColor="@color/text"
                 android:textSize="18sp" />
 
